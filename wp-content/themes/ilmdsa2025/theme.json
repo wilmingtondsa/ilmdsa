@@ -185,6 +185,16 @@
 	"styles": {
 		"blocks": {
 			"core/paragraph": {
+				"color": {
+					"text": "var(--wp--preset--color--custom-black)"
+				},
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var(--wp--preset--color--custom-black)"
+						}
+					}
+				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--manifold-dsa)",
 					"fontSize": "var(--wp--preset--font-size--custom-3)"
