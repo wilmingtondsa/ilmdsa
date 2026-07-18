@@ -1,0 +1,440 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.9/theme.json",
+  "version": 3,
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "color": "#ec1f27",
+          "name": "DSA Red",
+          "slug": "custom-dsa-red"
+        },
+        {
+          "color": "#231f20",
+          "name": "Black",
+          "slug": "custom-black"
+        },
+        {
+          "color": "#ffffff",
+          "name": "White",
+          "slug": "custom-white"
+        },
+        {
+          "color": "#c6cf4f",
+          "name": "Flytrap Green",
+          "slug": "custom-flytrap-green"
+        },
+        {
+          "color": "#b5c20c",
+          "name": "MAWG Green",
+          "slug": "custom-mawg-green"
+        },
+        {
+          "color": "#ff820f",
+          "name": "PoliEd Orange",
+          "slug": "custom-poli-ed-orange"
+        },
+        {
+          "color": "#4c12a1",
+          "name": "ABWG Purpl",
+          "slug": "custom-abwg-purpl"
+        }
+      ]
+    },
+    "layout": {
+      "contentSize": "1100px",
+      "wideSize": "1300px"
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFace": [
+            {
+              "fontFamily": "Klima",
+              "fontStyle": "normal",
+              "fontWeight": "200",
+              "src": ["file:./assets/fonts/klima/klima-200-normal.woff2"]
+            },
+            {
+              "fontFamily": "Klima",
+              "fontStyle": "normal",
+              "fontWeight": "300",
+              "src": ["file:./assets/fonts/klima/klima-300-normal.woff2"]
+            },
+            {
+              "fontFamily": "Klima",
+              "fontStyle": "normal",
+              "fontWeight": "400",
+              "src": ["file:./assets/fonts/klima/klima-400-normal.woff2"]
+            },
+            {
+              "fontFamily": "Klima",
+              "fontStyle": "normal",
+              "fontWeight": "500",
+              "src": ["file:./assets/fonts/klima/klima-500-normal.woff2"]
+            },
+            {
+              "fontFamily": "Klima",
+              "fontStyle": "normal",
+              "fontWeight": "600",
+              "src": ["file:./assets/fonts/klima/klima-600-normal.woff2"]
+            },
+            {
+              "fontFamily": "Klima",
+              "fontStyle": "normal",
+              "fontWeight": "700",
+              "src": ["file:./assets/fonts/klima/klima-700-normal.woff2"]
+            },
+            {
+              "fontFamily": "Klima",
+              "fontStyle": "normal",
+              "fontWeight": "800",
+              "src": ["file:./assets/fonts/klima/klima-800-normal.woff2"]
+            },
+            {
+              "fontFamily": "Klima",
+              "fontStyle": "normal",
+              "fontWeight": "900",
+              "src": ["file:./assets/fonts/klima/klima-900-normal.woff2"]
+            },
+            {
+              "fontFamily": "Klima",
+              "fontStyle": "italic",
+              "fontWeight": "200",
+              "src": ["file:./assets/fonts/klima/klima-200-italic.woff2"]
+            },
+            {
+              "fontFamily": "Klima",
+              "fontStyle": "italic",
+              "fontWeight": "300",
+              "src": ["file:./assets/fonts/klima/klima-300-italic.woff2"]
+            },
+            {
+              "fontFamily": "Klima",
+              "fontStyle": "italic",
+              "fontWeight": "400",
+              "src": ["file:./assets/fonts/klima/klima-400-italic.woff2"]
+            },
+            {
+              "fontFamily": "Klima",
+              "fontStyle": "italic",
+              "fontWeight": "500",
+              "src": ["file:./assets/fonts/klima/klima-500-italic.woff2"]
+            },
+            {
+              "fontFamily": "Klima",
+              "fontStyle": "italic",
+              "fontWeight": "600",
+              "src": ["file:./assets/fonts/klima/klima-600-italic.woff2"]
+            },
+            {
+              "fontFamily": "Klima",
+              "fontStyle": "italic",
+              "fontWeight": "700",
+              "src": ["file:./assets/fonts/klima/klima-700-italic.woff2"]
+            },
+            {
+              "fontFamily": "Klima",
+              "fontStyle": "italic",
+              "fontWeight": "800",
+              "src": ["file:./assets/fonts/klima/klima-800-italic.woff2"]
+            },
+            {
+              "fontFamily": "Klima",
+              "fontStyle": "italic",
+              "fontWeight": "900",
+              "src": ["file:./assets/fonts/klima/klima-900-italic.woff2"]
+            }
+          ],
+          "fontFamily": "Klima",
+          "name": "Klima",
+          "slug": "klima"
+        },
+        {
+          "fontFace": [
+            {
+              "fontFamily": "\"Manifold DSA\"",
+              "fontStyle": "normal",
+              "fontWeight": "300",
+              "src": [
+                "file:./assets/fonts/manifold-dsa/manifold-dsa-300-normal.woff2"
+              ]
+            },
+            {
+              "fontFamily": "\"Manifold DSA\"",
+              "fontStyle": "normal",
+              "fontWeight": "400",
+              "src": [
+                "file:./assets/fonts/manifold-dsa/manifold-dsa-400-normal.woff2"
+              ]
+            },
+            {
+              "fontFamily": "\"Manifold DSA\"",
+              "fontStyle": "normal",
+              "fontWeight": "500",
+              "src": [
+                "file:./assets/fonts/manifold-dsa/manifold-dsa-500-normal.woff2"
+              ]
+            },
+            {
+              "fontFamily": "\"Manifold DSA\"",
+              "fontStyle": "italic",
+              "fontWeight": "300",
+              "src": [
+                "file:./assets/fonts/manifold-dsa/manifold-dsa-300-italic.woff2"
+              ]
+            },
+            {
+              "fontFamily": "\"Manifold DSA\"",
+              "fontStyle": "italic",
+              "fontWeight": "400",
+              "src": [
+                "file:./assets/fonts/manifold-dsa/manifold-dsa-400-italic.woff2"
+              ]
+            },
+            {
+              "fontFamily": "\"Manifold DSA\"",
+              "fontStyle": "italic",
+              "fontWeight": "500",
+              "src": [
+                "file:./assets/fonts/manifold-dsa/manifold-dsa-500-italic.woff2"
+              ]
+            }
+          ],
+          "fontFamily": "\"Manifold DSA\"",
+          "name": "Manifold DSA",
+          "slug": "manifold-dsa"
+        }
+      ],
+      "fontSizes": [
+        {
+          "name": "Small",
+          "size": "1rem",
+          "slug": "small"
+        },
+        {
+          "name": "Medium",
+          "size": "1.13rem",
+          "slug": "medium"
+        },
+        {
+          "name": "Large",
+          "size": "1.25rem",
+          "slug": "large"
+        },
+        {
+          "name": "Extra Large",
+          "size": "1.38rem",
+          "slug": "x-large"
+        },
+        {
+          "name": "XXL",
+          "size": "2rem",
+          "slug": "custom-1"
+        },
+        {
+          "name": "3XL",
+          "size": "3rem",
+          "slug": "custom-2"
+        },
+        {
+          "name": "XS",
+          "size": "0.88rem",
+          "slug": "custom-3"
+        },
+        {
+          "name": "Page Title",
+          "size": "4rem",
+          "slug": "custom-4"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "blocks": {
+      "core/accordion-heading": {
+        "border": {
+          "radius": {
+            "bottomLeft": "16px",
+            "bottomRight": "16px",
+            "topLeft": "16px",
+            "topRight": "16px"
+          }
+        },
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--large)"
+        }
+      },
+      "core/button": {
+        "border": {
+          "bottom": {
+            "color": "var(--wp--preset--color--primary)",
+            "style": "var(--wp--custom--button--border--style)",
+            "width": "var(--wp--custom--button--border--width)"
+          },
+          "left": {
+            "color": "var(--wp--preset--color--primary)",
+            "style": "var(--wp--custom--button--border--style)",
+            "width": "var(--wp--custom--button--border--width)"
+          },
+          "radius": {
+            "bottomLeft": "48px",
+            "bottomRight": "48px",
+            "topLeft": "48px",
+            "topRight": "48px"
+          },
+          "right": {
+            "color": "var(--wp--preset--color--primary)",
+            "style": "var(--wp--custom--button--border--style)",
+            "width": "var(--wp--custom--button--border--width)"
+          },
+          "top": {
+            "color": "var(--wp--preset--color--primary)",
+            "style": "var(--wp--custom--button--border--style)",
+            "width": "var(--wp--custom--button--border--width)"
+          }
+        },
+        "typography": {
+          "fontStyle": "normal",
+          "fontWeight": "100"
+        }
+      },
+      "core/paragraph": {
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--small)"
+        }
+      },
+      "core/site-tagline": {
+        "color": {
+          "text": "var(--wp--preset--color--vivid-red)"
+        },
+        "elements": {
+          "link": {
+            "color": {
+              "text": "var(--wp--preset--color--vivid-red)"
+            }
+          }
+        },
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--manifold-dsa)",
+          "fontSize": "var(--wp--preset--font-size--large)",
+          "fontStyle": "normal",
+          "fontWeight": "700"
+        }
+      },
+      "core/site-title": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--klima)",
+          "fontSize": "var(--wp--preset--font-size--custom-2)",
+          "fontStyle": "normal",
+          "fontWeight": "700"
+        }
+      }
+    },
+    "color": {
+      "text": "var(--wp--preset--color--custom-black)"
+    },
+    "elements": {
+      "button": {
+        "color": {
+          "background": "var(--wp--preset--color--custom-dsa-red)",
+          "text": "var(--wp--preset--color--background)"
+        }
+      },
+      "caption": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--manifold-dsa)",
+          "fontSize": "var(--wp--preset--font-size--custom-3)",
+          "fontStyle": "normal",
+          "fontWeight": "500",
+          "lineHeight": "1.5"
+        }
+      },
+      "h1": {
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--custom-4)",
+          "fontStyle": "normal",
+          "fontWeight": "900"
+        }
+      },
+      "h2": {
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--custom-2)",
+          "fontStyle": "normal",
+          "fontWeight": "700",
+          "lineHeight": "1.2"
+        }
+      },
+      "h3": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--klima)",
+          "fontSize": "var(--wp--preset--font-size--custom-1)",
+          "fontStyle": "normal",
+          "fontWeight": "700",
+          "lineHeight": "1.2"
+        }
+      },
+      "h4": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--klima)",
+          "fontSize": "var(--wp--preset--font-size--x-large)",
+          "fontStyle": "normal",
+          "fontWeight": "700",
+          "lineHeight": "1.2"
+        }
+      },
+      "h5": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--klima)",
+          "fontSize": "var(--wp--preset--font-size--large)",
+          "fontStyle": "normal",
+          "fontWeight": "700",
+          "lineHeight": "1.2"
+        }
+      },
+      "h6": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--klima)",
+          "fontStyle": "normal",
+          "fontWeight": "700",
+          "lineHeight": "1.2"
+        }
+      },
+      "heading": {
+        "color": {
+          "text": "var(--wp--preset--color--custom-black)"
+        },
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--klima)",
+          "fontStyle": "normal",
+          "fontWeight": "600",
+          "lineHeight": "1.2"
+        }
+      },
+      "link": {
+        "color": {
+          "text": "var(--wp--preset--color--custom-dsa-red)"
+        },
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--manifold-dsa)",
+          "fontSize": "var(--wp--preset--font-size--small)",
+          "lineHeight": "1.2"
+        }
+      }
+    },
+    "spacing": {
+      "blockGap": "1.5rem",
+      "padding": {
+        "bottom": "var(--wp--preset--spacing--40)",
+        "left": "0",
+        "right": "0",
+        "top": "var(--wp--preset--spacing--40)"
+      }
+    },
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--manifold-dsa)",
+      "fontSize": "var(--wp--preset--font-size--small)",
+      "lineHeight": "1.2"
+    }
+  }
+}

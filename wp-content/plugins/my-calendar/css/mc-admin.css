@@ -1,0 +1,49 @@
+.mc-events .mc_edit_links,
+.mc-event .mc_edit_links,
+.my-calendar-modal .mc_edit_links,
+.mc-main .details .mc_edit_links {
+	position: relative;
+	clear: both;
+}
+
+.mc-events .mc_edit_links ul,
+.mc-event .mc_edit_links ul,
+.my-calendar-modal .mc_edit_links ul,
+.mc-main .details .mc_edit_links ul {
+	display: none;
+	position: absolute;
+	background: #fff;
+	border: 1px solid;
+	padding: 1rem;
+	bottom: 0;
+	left: 4.5rem;
+	list-style: none;
+	z-index: 2;
+	box-shadow: 3px 3px 1px #ccc;
+	padding: 4px;
+	margin: 0 !important;
+}
+
+
+.mc-events .mc_edit_links li,
+.mc-event .mc_edit_links li,
+.my-calendar-modal .mc_edit_links li,
+.mc-main .details .mc_edit_links li {
+	margin: 0;
+}
+
+.mc-events .mc_edit_links ul a,
+.mc-event .mc_edit_links ul a,
+.my-calendar-modal .mc_edit_links ul a,
+.mc-main .details .mc_edit_links ul a {
+	padding: 4px;
+	font-size: 1rem;
+	display: block;
+}
+
+.mc-events .mc_edit_links ul a:hover,
+.mc-event .mc_edit_links ul a:hover,
+.my-calendar-modal .mc_edit_links ul a:hover,
+.mc-main .details .mc_edit_links ul a:hover {
+	background: rgba( 0,0,0,.04 );
+}

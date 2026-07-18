@@ -1,4 +1,7 @@
 {
-  "themes": ["./wp-content/themes/ilmdsa2025"],
-  "plugins": ["./wp-content/plugins/create-block-theme"]
+  "themes": ["./wp-content/themes/ilmdsa2026", "./wp-content/themes/blockbase"],
+  "plugins": [
+    "./wp-content/plugins/create-block-theme",
+    "./wp-content/plugins/my-calendar"
+  ]
 }

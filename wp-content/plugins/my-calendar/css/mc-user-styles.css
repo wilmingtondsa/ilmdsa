@@ -1,0 +1,41 @@
+.mc-category {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+}
+
+.mc-category .mc-category-color {
+	padding: 3px;
+	display: inline-flex;
+	width: 1.125rem;
+	height: 1.125rem;
+	justify-content: center;
+}
+
+.mc-user-permissions ul {
+	max-width: 50rem;
+}
+
+.mc-user-permissions .checkboxes li {
+	padding: 6px;
+	background: rgba(0, 0, 0, .05);
+	margin: 2px;
+	display: inline-flex;
+	align-items: center;
+}
+
+.mc-user-permissions .checkboxes li:hover {
+	background: #fff;
+}
+
+.mc-widget-categories {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.widgets-php .mc-widget-categories {
+	display: grid;
+	grid-template-columns: repeat( 2, 1fr );
+	column-gap: 20px;
+}

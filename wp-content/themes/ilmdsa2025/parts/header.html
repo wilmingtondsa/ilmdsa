@@ -1,15 +1,29 @@
-<!-- wp:group {"align":"wide","layout":{"type":"flex","justifyContent":"space-between","flexWrap":"wrap"}} -->
-<div class="wp-block-group alignwide"><!-- wp:group {"style":{"spacing":{"blockGap":"24px"}},"layout":{"type":"flex"}} -->
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column {"width":"75%","layout":{"type":"constrained"}} -->
+<div class="wp-block-column" style="flex-basis:75%"><!-- wp:group {"style":{"spacing":{"blockGap":"24px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:site-logo /-->
 
+<!-- wp:spacer {"width":"0px","style":{"layout":{"selfStretch":"fixed","flexSize":"8px"}}} -->
+<div style="height:100px;width:0px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
 <!-- wp:group {"style":{"spacing":{"blockGap":"4px"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group"><!-- wp:site-title {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}}} /-->
+<div class="wp-block-group"><!-- wp:site-title {"level":0,"className":"ticss-8993a055","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}},"typography":{"fontSize":"32px","fontStyle":"normal","fontWeight":"800","textTransform":"capitalize"}},"fontFamily":"klima","hasCustomCSS":true,"customCSS":".ticss-8993a055 {\n  font-size: 2rem;\n}\n"} /-->
 
-<!-- wp:site-tagline {"fontSize":"small"} /--></div>
+<!-- wp:site-tagline {"style":{"typography":{"fontSize":"24px","fontStyle":"normal","fontWeight":"700"},"elements":{"link":{"color":{"text":"var:preset|color|custom-dsa-red"}}}},"textColor":"custom-dsa-red","fontFamily":"manifold-dsa"} /--></div>
 <!-- /wp:group --></div>
-<!-- /wp:group -->
+<!-- /wp:group --></div>
+<!-- /wp:column -->
 
-<!-- wp:page-list /-->
+<!-- wp:column {"verticalAlignment":"center","width":"25%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:25%"><!-- wp:buttons {"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"700"}},"fontFamily":"klima","layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"}} -->
+<div class="wp-block-buttons has-klima-font-family" style="font-style:normal;font-weight:700;text-transform:uppercase"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Join DSA</a></div>
+<!-- /wp:button -->
 
-<!-- wp:navigation {"ref":4,"fontSize":"small","layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"center","orientation":"horizontal"}} /--></div>
-<!-- /wp:group -->
+<!-- wp:button {"className":"is-style-outline"} -->
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button">Donate</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
